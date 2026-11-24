@@ -1,0 +1,58 @@
+.table-header th {
+	font-size: 80%;
+}
+
+.table-body td {
+	font-size: 80%;
+}
+
+#reset {
+	width: 70px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+#code {
+	width: 155px;
+	height: 38px;
+}
+
+#code {
+	width: 155px;
+	height: 38px;
+}
+
+#loadingOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.overlay-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 999;
+}
+
+.overlay-content {
+	text-align: center;
+}
